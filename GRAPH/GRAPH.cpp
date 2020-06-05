@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int wave(vector < vector <int> > A, int numCity, int St, int Fi)
+int wave(vector < vector <int> > A, int numCity, int St, int Fi)  //numCity-количесво вершин , St-начало , Fi-конец
 {
 	queue<int> iQueue;
 	int* distance = new int[numCity];
