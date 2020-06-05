@@ -20,7 +20,7 @@ int wave(vector < vector <int> > A, int numCity, int St, int Fi)  //numCity-ко
 	{
 		int Curr = iQueue.front();
 		iQueue.pop();
-		for (int i = 0; i < numCity; i++)
+		for (int i = 0; i < numCity; i++)// делаем обход по матрице и ищем путь
 		{
 			if (A[Curr][i] >= 1)
 			{
